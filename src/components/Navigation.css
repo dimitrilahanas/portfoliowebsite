@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding: 40px;
+    background-color: white;
+    position: fixed;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+.navLink {
+    padding: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.navLink.active, .navLink:hover{
+    color: #79BCCB;
+    transition: 0.5s ease;
+}
+

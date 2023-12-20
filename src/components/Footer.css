@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Raleway:wght@300&display=swap');
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 3%;
+    background-color: #fff;
+}
+  
+.socialIcons a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+.icon {
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.resumeBtn a {
+    font-family: 'Chakra Petch', sans-serif;
+    transition: 0.5s ease;
+    font-size: 20px;
+}
+
+.resumeBtn a:hover {
+    color: #79BCCB;
+    transition: 0.5s ease;
+}

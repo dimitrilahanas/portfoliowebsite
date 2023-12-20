@@ -1,0 +1,33 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 100;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Page */
+
+.aboutContent h2 {
+    color: #79BCCB;
+}
+
+.aboutContent h1 {
+    font-size: 60px;
+}
+
+.aboutContent {
+    padding-right: 15vw;
+}
+
+.aboutWrapper {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%
+}
+
+.aboutWrapper img {
+    width: 30vw;
+}

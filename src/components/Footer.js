@@ -11,8 +11,9 @@ function Footer() {
             <a href={Resume}>Resume</a>
         </div>
         <div className="socialIcons">
-            <a href="https://www.instagram.com/dimitrilahanas/"><FontAwesomeIcon icon={faInstagram} className="icon" /></a>
-            <a href="https://github.com/dimitrilahanas"><FontAwesomeIcon icon={faGithub} className="icon" /></a>
+          <p className="email">dimitrilahanas@gmail.com</p>
+          <a href="https://www.instagram.com/dimitrilahanas/"><FontAwesomeIcon icon={faInstagram} className="icon" /></a>
+          <a href="https://github.com/dimitrilahanas"><FontAwesomeIcon icon={faGithub} className="icon" /></a>
         </div>
     </footer>
   );

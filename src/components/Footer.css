@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Raleway:wght@300&display=swap');
 
+/* Footer */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -11,16 +13,32 @@ footer {
     padding: 3%;
     background-color: #fff;
 }
-  
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    font-size: 18px;
+    margin-right: 10%;
+    
+}
+
 .socialIcons a {
     color: #000000;
     text-decoration: none;
     margin-right: 10px;
 }
-  
+
 .icon {
     font-size: 30px;
     padding-right: 15px;
+}
+
+.resumeBtn {
+    display: flex;
+    align-items: center;
 }
 
 .resumeBtn a {
